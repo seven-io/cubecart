@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<installer version="1.0">
+	<info>
+		<folder>seven</folder>
+		<uid>cubecart@seven.io</uid>
+		<type>plugins</type>
+		<name><![CDATA[seven]]></name>
+		<description><![CDATA[Send SMS via seven]]></description>
+		<version>1.0.0</version>
+		<minVersion>6.0.0</minVersion>
+		<maxVersion>6.*.*</maxVersion>
+		<creator><![CDATA[seven communications GmbH & Co. KG]]></creator>
+		<homepage><![CDATA[https://www.seven.io]]></homepage>
+	</info>
+	<hooks>
+		<hook enabled="1" trigger="admin.customer.list"><![CDATA[Admin page content]]></hook>
+		<hook enabled="1" trigger="admin.navigation"><![CDATA[Navigation Menu Item]]></hook>
+		<hook enabled="1" trigger="admin.seven"><![CDATA[Admin page content]]></hook>
+	</hooks>
+</installer>

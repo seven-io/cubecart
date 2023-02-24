@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions version="1.0">
+    <group name="seven">
+        <string name="api_key"><![CDATA[API key]]></string>
+        <string name="api_key_help"><![CDATA[See our <a href='https://help.seven.io/en/api-key-access' target='_blank'>helpdesk article</a> on how to retrieve yours.]]></string>
+        <string name="flash"><![CDATA[Flash?]]></string>
+        <string name="flash_help"><![CDATA[Send as Flash SMS. These are displayed directly in the receiver's display. Flash SMS do not show sender names, except on some older phone models. <a href='https://help.seven.io/en/flash-sms' target='_blank'>See more.</a>]]></string>
+        <string name="from"><![CDATA[From]]></string>
+        <string name="from_help_sms"><![CDATA[The sender identifier. It may contain a maximum of <i>11 alphanumeric</i> or <i>16 numeric</i> characters.]]></string>
+        <string name="foreign_id"><![CDATA[Foreign ID]]></string>
+        <string name="foreign_id_help"><![CDATA[Provide your own data for this message. You will get the foreign_id returned in DLR callbacks etc. Max. 64 chars, allowed characters: <i>a-z, A-Z, 0-9, .-_@</i>.]]></string>
+        <string name="label"><![CDATA[Label]]></string>
+        <string name="label_help"><![CDATA[You can optionally set a separate label for each SMS so that you can assign it to your statistics. Max. 100 chars, allowed characters: <i>a-z, A-Z, 0-9, .-_@</i>.]]></string>
+        <string name="module_title"><![CDATA[seven]]></string>
+        <string name="placeholders"><![CDATA[Placeholders]]></string>
+        <string name="performance_tracking"><![CDATA[Performance Tracking?]]></string>
+        <string name="performance_tracking_help"><![CDATA[Enable <a href='https://help.seven.io/en/performance-tracking-1' target='_blank'>Performance Tracking</a> for URLs found in the message text.]]></string>
+        <string name="plugin_status"><![CDATA[Plugin Status]]></string>
+        <string name="sms"><![CDATA[SMS]]></string>
+        <string name="sms_send"><![CDATA[Send SMS]]></string>
+        <string name="text"><![CDATA[Text message]]></string>
+        <string name="text_help_sms"><![CDATA[Max. <i>1520</i> chars. If <i>over 160</i> characters, text is distributed over <i>several</i> messages, each <i>calculated individually<i>.]]></string>
+        <string name="to"><![CDATA[To]]></string>
+        <string name="to_help_sms"><![CDATA[Recipient number(s) separated by comma – you may specify numbers and/or seven address book groups and contacts.]]></string>
+        <string name="visit_website"><![CDATA[Visit seven website]]></string>
+    </group>
+</definitions>
